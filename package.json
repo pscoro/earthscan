@@ -1,0 +1,20 @@
+{
+  "name": "earthscan",
+  "version": "1.0.0",
+  "description": "use nasa API to scan satellite imagery for anomalies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "pau",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "file-type": "^16.2.0",
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7",
+    "request": "^2.88.2"
+  }
+}
